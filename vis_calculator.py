@@ -1,4 +1,4 @@
-# You can use whatever package(s) you like to handle the timeseries data
+
 import json
 import numpy as np
 import pandas as pd
@@ -254,7 +254,6 @@ class VISCalculator:
     def get_max_vis_score_info(self):
         """ Return dictionary with required info about the max VIS score
         """
-        # Sorry for not finishing goal 3 in this project due to limited time! I've tried to put my thoughts on this problem below:
         # 1. The function will take in fhir resource and the key information on medication and time will be extracted to construct a dataframe.
         # 2. We can use timeseries data and perform further identification through filtering out the unwanted entries that are not reported during CICU.
         # 3. Find the max VIS score in first 24h.
