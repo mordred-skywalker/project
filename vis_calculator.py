@@ -258,5 +258,6 @@ class VISCalculator:
         # 2. We can use timeseries data and perform further identification through filtering out the unwanted entries that are not reported during CICU.
         # 3. Find the max VIS score in first 24h.
         # 4. Check duration of the highest score by text extraction and calculation using time.
-        # 5. Perform the classification by seperately do the analysis on first 24 hrs and 24 - 48 hrs, and take the bigger classification  number of the two results.
+        # 5. Perform the classification by seperately do the analysis on first 24 hrs and 24 - 48 hrs, and take the bigger classification number of the two results.
+        
 
