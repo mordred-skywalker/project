@@ -1,0 +1,1013 @@
+{
+    "doc": {
+        "text": "Patient Operative Note:\n\nName:  Sherlock Holmes\nAuthor:  John Watson\nDate:  3/1/2000\n\nPATIENT INFO:\nMale\nBirth date:  6/1/1998\n\nENCOUNTER INFO:\nhospital admission:  2/2/2000 2pm\nhospital discharge:  2/5/2000 12pm\nICU admission:  2/3/2000 8am\nICU discharge:  2/5/2000 3:30am\n\nNOTES:\n\nPatient was admitted to the hospital on Feb 2nd.  Atrial Septal Defect was diagnosed after echocardiogram on 2/4/2000.\n\nPatient entered the CV-ICU on February 3rth and was discharged on the fifth.  ASD transcatheter repair was successfully performed on 2/5/2000.\n\nPatient discharged from the hospital at noon on 2/5 to home.\n\n"
+    },
+    "coded_entities": [
+        {
+            "start": 0,
+            "end": 1,
+            "start_char": 0,
+            "end_char": 7,
+            "text": "Patient",
+            "label": "UMLS",
+            "coding": {
+                "umls": {
+                    "C1578486": {
+                        "similarity": 1.0,
+                        "semtypes": [
+                            "T170"
+                        ],
+                        "term": "patient"
+                    },
+                    "C1578485": {
+                        "similarity": 1.0,
+                        "semtypes": [
+                            "T170"
+                        ],
+                        "term": "patient"
+                    },
+                    "C1555324": {
+                        "similarity": 0.7142857142857143,
+                        "semtypes": [
+                            "T058"
+                        ],
+                        "term": "inpatient"
+                    },
+                    "C1550655": {
+                        "similarity": 1.0,
+                        "semtypes": [
+                            "T031"
+                        ],
+                        "term": "patient"
+                    }
+                }
+            }
+        },
+        {
+            "start": 1,
+            "end": 3,
+            "start_char": 8,
+            "end_char": 22,
+            "text": "Operative Note",
+            "label": "UMLS",
+            "coding": {
+                "umls": {
+                    "C0551628": {
+                        "similarity": 1.0,
+                        "semtypes": [
+                            "T201"
+                        ],
+                        "term": "operative note"
+                    },
+                    "C0944164": {
+                        "similarity": 0.8,
+                        "semtypes": [
+                            "T201"
+                        ],
+                        "term": "md operative note"
+                    },
+                    "C1316600": {
+                        "similarity": 0.8,
+                        "semtypes": [
+                            "T201"
+                        ],
+                        "term": "op operative note"
+                    },
+                    "C4297054": {
+                        "similarity": 0.8,
+                        "semtypes": [
+                            "T201"
+                        ],
+                        "term": "ic operative note"
+                    },
+                    "C4696848": {
+                        "similarity": 0.8,
+                        "semtypes": [
+                            "T201"
+                        ],
+                        "term": "ob operative note"
+                    },
+                    "C4070911": {
+                        "similarity": 0.75,
+                        "semtypes": [
+                            "T201"
+                        ],
+                        "term": "oms operative note"
+                    },
+                    "C4071095": {
+                        "similarity": 0.75,
+                        "semtypes": [
+                            "T201"
+                        ],
+                        "term": "ccm operative note"
+                    },
+                    "C0488620": {
+                        "similarity": 0.7058823529411765,
+                        "semtypes": [
+                            "T201"
+                        ],
+                        "term": "operative note date"
+                    }
+                }
+            }
+        },
+        {
+            "start": 5,
+            "end": 6,
+            "start_char": 25,
+            "end_char": 29,
+            "text": "Name",
+            "label": "UMLS",
+            "coding": {
+                "umls": {
+                    "C2599456": {
+                        "similarity": 1.0,
+                        "semtypes": [
+                            "T201"
+                        ],
+                        "term": "name"
+                    },
+                    "C1554107": {
+                        "similarity": 1.0,
+                        "semtypes": [
+                            "T170"
+                        ],
+                        "term": "name"
+                    },
+                    "C1547383": {
+                        "similarity": 1.0,
+                        "semtypes": [
+                            "T170"
+                        ],
+                        "term": "name"
+                    },
+                    "C0027365": {
+                        "similarity": 1.0,
+                        "semtypes": [
+                            "T170"
+                        ],
+                        "term": "name"
+                    }
+                }
+            }
+        },
+        {
+            "start": 14,
+            "end": 16,
+            "start_char": 57,
+            "end_char": 68,
+            "text": "John Watson",
+            "label": "PERSON",
+            "value_units": null,
+            "value": "John Watson"
+        },
+        {
+            "start": 17,
+            "end": 18,
+            "start_char": 69,
+            "end_char": 73,
+            "text": "Date",
+            "label": "UMLS",
+            "coding": {
+                "umls": {
+                    "C2740799": {
+                        "similarity": 1.0,
+                        "semtypes": [
+                            "T129",
+                            "T121"
+                        ],
+                        "term": "date"
+                    }
+                }
+            }
+        },
+        {
+            "start": 20,
+            "end": 25,
+            "start_char": 76,
+            "end_char": 84,
+            "text": "3/1/2000",
+            "label": "DATE",
+            "value_units": "date",
+            "value": "2000-03-01T00:00:00"
+        },
+        {
+            "start": 26,
+            "end": 28,
+            "start_char": 86,
+            "end_char": 98,
+            "text": "PATIENT INFO",
+            "label": "UMLS",
+            "coding": {
+                "umls": {
+                    "C1631603": {
+                        "similarity": 0.7142857142857143,
+                        "semtypes": [
+                            "T033"
+                        ],
+                        "term": "patient informed"
+                    }
+                }
+            }
+        },
+        {
+            "start": 30,
+            "end": 31,
+            "start_char": 100,
+            "end_char": 104,
+            "text": "Male",
+            "label": "UMLS",
+            "coding": {
+                "umls": {
+                    "C1706429": {
+                        "similarity": 1.0,
+                        "semtypes": [
+                            "T032"
+                        ],
+                        "term": "male"
+                    },
+                    "C0086582": {
+                        "similarity": 1.0,
+                        "semtypes": [
+                            "T032"
+                        ],
+                        "term": "male"
+                    }
+                }
+            }
+        },
+        {
+            "start": 32,
+            "end": 34,
+            "start_char": 105,
+            "end_char": 115,
+            "text": "Birth date",
+            "label": "UMLS",
+            "coding": {
+                "umls": {
+                    "C0559563": {
+                        "similarity": 0.7777777777777778,
+                        "semtypes": [
+                            "T033"
+                        ],
+                        "term": "birth data"
+                    },
+                    "C0803906": {
+                        "similarity": 1.0,
+                        "semtypes": [
+                            "T201"
+                        ],
+                        "term": "birth date"
+                    }
+                }
+            }
+        },
+        {
+            "start": 36,
+            "end": 41,
+            "start_char": 118,
+            "end_char": 126,
+            "text": "6/1/1998",
+            "label": "DATE",
+            "value_units": "date",
+            "value": "1998-06-01T00:00:00"
+        },
+        {
+            "start": 42,
+            "end": 43,
+            "start_char": 128,
+            "end_char": 137,
+            "text": "ENCOUNTER",
+            "label": "UMLS",
+            "coding": {
+                "umls": {
+                    "C4722444": {
+                        "similarity": 1.0,
+                        "semtypes": [
+                            "T033"
+                        ],
+                        "term": "encounter"
+                    },
+                    "C1512346": {
+                        "similarity": 1.0,
+                        "semtypes": [
+                            "T058"
+                        ],
+                        "term": "encounter"
+                    },
+                    "C0702263": {
+                        "similarity": 0.7142857142857143,
+                        "semtypes": [
+                            "T109",
+                            "T131"
+                        ],
+                        "term": "counter"
+                    }
+                }
+            }
+        },
+        {
+            "start": 43,
+            "end": 48,
+            "start_char": 138,
+            "end_char": 162,
+            "text": "INFO:\nhospital admission",
+            "label": "UMLS",
+            "coding": {
+                "umls": {
+                    "C0184666": {
+                        "similarity": 0.7272727272727273,
+                        "semtypes": [
+                            "T058"
+                        ],
+                        "term": "hospital admission"
+                    }
+                }
+            },
+            "value_units": "date",
+            "value": "2000-02-02T14:00:00"
+        },
+        {
+            "start": 55,
+            "end": 59,
+            "start_char": 174,
+            "end_char": 196,
+            "text": "2pm\nhospital discharge",
+            "label": "UMLS",
+            "coding": {
+                "umls": {
+                    "C0586003": {
+                        "similarity": 0.8,
+                        "semtypes": [
+                            "T058"
+                        ],
+                        "term": "hospital discharge"
+                    }
+                }
+            },
+            "value_units": "date",
+            "value": "2000-02-05T12:00:00"
+        },
+        {
+            "start": 66,
+            "end": 67,
+            "start_char": 208,
+            "end_char": 212,
+            "text": "12pm",
+            "label": "UMLS",
+            "coding": {
+                "umls": {
+                    "C1553570": {
+                        "similarity": 1.0,
+                        "semtypes": [
+                            "T074"
+                        ],
+                        "term": "12pm"
+                    }
+                }
+            }
+        },
+        {
+            "start": 68,
+            "end": 70,
+            "start_char": 213,
+            "end_char": 226,
+            "text": "ICU admission",
+            "label": "UMLS",
+            "coding": {
+                "umls": {
+                    "C3841246": {
+                        "similarity": 0.9166666666666666,
+                        "semtypes": [
+                            "T033"
+                        ],
+                        "term": "nicu admission"
+                    },
+                    "C5240707": {
+                        "similarity": 0.7857142857142857,
+                        "semtypes": [
+                            "T201"
+                        ],
+                        "term": "icu admission dt"
+                    }
+                }
+            },
+            "value_units": "date",
+            "value": "2000-02-03T08:00:00"
+        },
+        {
+            "start": 72,
+            "end": 77,
+            "start_char": 229,
+            "end_char": 237,
+            "text": "2/3/2000",
+            "label": "QUANTITY",
+            "value_units": "date",
+            "value": "2000-02-03T00:00:00"
+        },
+        {
+            "start": 79,
+            "end": 81,
+            "start_char": 242,
+            "end_char": 255,
+            "text": "ICU discharge",
+            "label": "UMLS",
+            "coding": {
+                "umls": {
+                    "C5240710": {
+                        "similarity": 0.7857142857142857,
+                        "semtypes": [
+                            "T201"
+                        ],
+                        "term": "icu discharge dt"
+                    }
+                }
+            },
+            "value_units": "date",
+            "value": "2000-02-05T03:30:00"
+        },
+        {
+            "start": 83,
+            "end": 89,
+            "start_char": 258,
+            "end_char": 268,
+            "text": "2/5/2000 3",
+            "label": "QUANTITY"
+        },
+        {
+            "start": 90,
+            "end": 91,
+            "start_char": 269,
+            "end_char": 273,
+            "text": "30am",
+            "label": "UMLS",
+            "coding": {
+                "umls": {
+                    "C1553669": {
+                        "similarity": 1.0,
+                        "semtypes": [
+                            "T074"
+                        ],
+                        "term": "30am"
+                    }
+                }
+            }
+        },
+        {
+            "start": 92,
+            "end": 93,
+            "start_char": 275,
+            "end_char": 280,
+            "text": "NOTES",
+            "label": "UMLS",
+            "coding": {
+                "umls": {
+                    "C1317574": {
+                        "similarity": 1.0,
+                        "semtypes": [
+                            "T170"
+                        ],
+                        "term": "notes"
+                    }
+                }
+            }
+        },
+        {
+            "start": 95,
+            "end": 96,
+            "start_char": 283,
+            "end_char": 290,
+            "text": "Patient",
+            "label": "UMLS",
+            "coding": {
+                "umls": {
+                    "C1578486": {
+                        "similarity": 1.0,
+                        "semtypes": [
+                            "T170"
+                        ],
+                        "term": "patient"
+                    },
+                    "C1578485": {
+                        "similarity": 1.0,
+                        "semtypes": [
+                            "T170"
+                        ],
+                        "term": "patient"
+                    },
+                    "C1555324": {
+                        "similarity": 0.7142857142857143,
+                        "semtypes": [
+                            "T058"
+                        ],
+                        "term": "inpatient"
+                    },
+                    "C1550655": {
+                        "similarity": 1.0,
+                        "semtypes": [
+                            "T031"
+                        ],
+                        "term": "patient"
+                    }
+                }
+            }
+        },
+        {
+            "start": 97,
+            "end": 101,
+            "start_char": 295,
+            "end_char": 319,
+            "text": "admitted to the hospital",
+            "label": "UMLS",
+            "coding": {
+                "umls": {
+                    "C0184666": {
+                        "similarity": 0.7368421052631579,
+                        "semtypes": [
+                            "T058"
+                        ],
+                        "term": "admitted hospital"
+                    }
+                }
+            }
+        },
+        {
+            "start": 102,
+            "end": 104,
+            "start_char": 323,
+            "end_char": 330,
+            "text": "Feb 2nd",
+            "label": "DATE"
+        },
+        {
+            "start": 106,
+            "end": 109,
+            "start_char": 333,
+            "end_char": 353,
+            "text": "Atrial Septal Defect",
+            "label": "UMLS",
+            "coding": {
+                "umls": {
+                    "C1842778": {
+                        "similarity": 0.7083333333333334,
+                        "semtypes": [
+                            "T047",
+                            "T019"
+                        ],
+                        "term": "atrial septal defect - asd2"
+                    },
+                    "C1969657": {
+                        "similarity": 0.7083333333333334,
+                        "semtypes": [
+                            "T047",
+                            "T019"
+                        ],
+                        "term": "atrial septal defect - asd4"
+                    },
+                    "C2748552": {
+                        "similarity": 0.7083333333333334,
+                        "semtypes": [
+                            "T047",
+                            "T019"
+                        ],
+                        "term": "atrial septal defect - asd5"
+                    },
+                    "C3279790": {
+                        "similarity": 0.7083333333333334,
+                        "semtypes": [
+                            "T047",
+                            "T019"
+                        ],
+                        "term": "atrial septal defect - asd3"
+                    },
+                    "C0344725": {
+                        "similarity": 0.85,
+                        "semtypes": [
+                            "T019"
+                        ],
+                        "term": "atrial septal defect os"
+                    },
+                    "C0189965": {
+                        "similarity": 0.7083333333333334,
+                        "semtypes": [
+                            "T061"
+                        ],
+                        "term": "atrial septal defect repair"
+                    },
+                    "C2749101": {
+                        "similarity": 0.7083333333333334,
+                        "semtypes": [
+                            "T033"
+                        ],
+                        "term": "atrial septal defect (male)"
+                    },
+                    "C2751315": {
+                        "similarity": 0.8947368421052632,
+                        "semtypes": [
+                            "T047",
+                            "T019"
+                        ],
+                        "term": "atrial septal defect 6"
+                    },
+                    "C3280790": {
+                        "similarity": 0.8947368421052632,
+                        "semtypes": [
+                            "T019"
+                        ],
+                        "term": "atrial septal defect 8"
+                    },
+                    "C3280943": {
+                        "similarity": 0.8947368421052632,
+                        "semtypes": [
+                            "T047",
+                            "T019"
+                        ],
+                        "term": "atrial septal defect 9"
+                    },
+                    "C3838491": {
+                        "similarity": 0.7083333333333334,
+                        "semtypes": [
+                            "T047",
+                            "T019"
+                        ],
+                        "term": "atrial septal defect - asd7"
+                    },
+                    "C4227602": {
+                        "similarity": 0.7083333333333334,
+                        "semtypes": [
+                            "T033"
+                        ],
+                        "term": "atrial septal defect, small"
+                    },
+                    "C0018817": {
+                        "similarity": 0.8095238095238095,
+                        "semtypes": [
+                            "T019"
+                        ],
+                        "term": "atrial septal defect nos"
+                    },
+                    "C1862389": {
+                        "similarity": 0.8947368421052632,
+                        "semtypes": [
+                            "T047"
+                        ],
+                        "term": "atrial septal defect 1"
+                    },
+                    "C0555060": {
+                        "similarity": 0.7391304347826086,
+                        "semtypes": [
+                            "T184"
+                        ],
+                        "term": "atrial septal defect murmur"
+                    },
+                    "C0344735": {
+                        "similarity": 0.7083333333333334,
+                        "semtypes": [
+                            "T019"
+                        ],
+                        "term": "primum atrial septal defect"
+                    }
+                }
+            }
+        },
+        {
+            "start": 110,
+            "end": 111,
+            "start_char": 358,
+            "end_char": 367,
+            "text": "diagnosed",
+            "label": "UMLS",
+            "coding": {
+                "umls": {
+                    "C0011900": {
+                        "similarity": 1.0,
+                        "semtypes": [
+                            "T060"
+                        ],
+                        "term": "diagnosed"
+                    },
+                    "C1408353": {
+                        "similarity": 0.7777777777777778,
+                        "semtypes": [
+                            "T033"
+                        ],
+                        "term": "undiagnosed"
+                    }
+                }
+            }
+        },
+        {
+            "start": 112,
+            "end": 115,
+            "start_char": 374,
+            "end_char": 393,
+            "text": "echocardiogram on 2",
+            "label": "UMLS",
+            "coding": {
+                "umls": {
+                    "C0476369": {
+                        "similarity": 0.7058823529411765,
+                        "semtypes": [
+                            "T033"
+                        ],
+                        "term": "echocardiogram"
+                    },
+                    "C2243117": {
+                        "similarity": 0.7058823529411765,
+                        "semtypes": [
+                            "T170"
+                        ],
+                        "term": "echocardiogram"
+                    },
+                    "C0013516": {
+                        "similarity": 0.7058823529411765,
+                        "semtypes": [
+                            "T060"
+                        ],
+                        "term": "echocardiogram"
+                    }
+                }
+            },
+            "value_units": "date",
+            "value": "2000-02-04T00:00:00"
+        },
+        {
+            "start": 121,
+            "end": 122,
+            "start_char": 403,
+            "end_char": 410,
+            "text": "Patient",
+            "label": "UMLS",
+            "coding": {
+                "umls": {
+                    "C1578486": {
+                        "similarity": 1.0,
+                        "semtypes": [
+                            "T170"
+                        ],
+                        "term": "patient"
+                    },
+                    "C1578485": {
+                        "similarity": 1.0,
+                        "semtypes": [
+                            "T170"
+                        ],
+                        "term": "patient"
+                    },
+                    "C1555324": {
+                        "similarity": 0.7142857142857143,
+                        "semtypes": [
+                            "T058"
+                        ],
+                        "term": "inpatient"
+                    },
+                    "C1550655": {
+                        "similarity": 1.0,
+                        "semtypes": [
+                            "T031"
+                        ],
+                        "term": "patient"
+                    }
+                }
+            }
+        },
+        {
+            "start": 126,
+            "end": 128,
+            "start_char": 433,
+            "end_char": 446,
+            "text": "February 3rth",
+            "label": "DATE"
+        },
+        {
+            "start": 130,
+            "end": 131,
+            "start_char": 455,
+            "end_char": 465,
+            "text": "discharged",
+            "label": "UMLS",
+            "coding": {
+                "umls": {
+                    "C1546601": {
+                        "similarity": 0.875,
+                        "semtypes": [
+                            "T170"
+                        ],
+                        "term": "discharge"
+                    },
+                    "C0012621": {
+                        "similarity": 0.875,
+                        "semtypes": [
+                            "T031"
+                        ],
+                        "term": "discharge"
+                    },
+                    "C0030685": {
+                        "similarity": 0.875,
+                        "semtypes": [
+                            "T058"
+                        ],
+                        "term": "discharge"
+                    },
+                    "C2926602": {
+                        "similarity": 0.875,
+                        "semtypes": [
+                            "T184"
+                        ],
+                        "term": "discharge"
+                    },
+                    "C0600083": {
+                        "similarity": 0.875,
+                        "semtypes": [
+                            "T031"
+                        ],
+                        "term": "discharge"
+                    }
+                }
+            }
+        },
+        {
+            "start": 133,
+            "end": 134,
+            "start_char": 473,
+            "end_char": 478,
+            "text": "fifth",
+            "label": "ORDINAL",
+            "value_units": "dimensionless",
+            "value": 5
+        },
+        {
+            "start": 136,
+            "end": 137,
+            "start_char": 481,
+            "end_char": 484,
+            "text": "ASD",
+            "label": "UMLS",
+            "coding": {
+                "umls": {
+                    "C3496261": {
+                        "similarity": 1.0,
+                        "semtypes": [
+                            "T030"
+                        ],
+                        "term": "asd"
+                    },
+                    "C0856975": {
+                        "similarity": 1.0,
+                        "semtypes": [
+                            "T048"
+                        ],
+                        "term": "asd"
+                    },
+                    "C0018817": {
+                        "similarity": 1.0,
+                        "semtypes": [
+                            "T019"
+                        ],
+                        "term": "asd"
+                    },
+                    "C1510586": {
+                        "similarity": 1.0,
+                        "semtypes": [
+                            "T048"
+                        ],
+                        "term": "asd"
+                    }
+                }
+            }
+        },
+        {
+            "start": 138,
+            "end": 139,
+            "start_char": 499,
+            "end_char": 505,
+            "text": "repair",
+            "label": "UMLS",
+            "coding": {
+                "umls": {
+                    "C1705181": {
+                        "similarity": 1.0,
+                        "semtypes": [
+                            "T058"
+                        ],
+                        "term": "repair"
+                    },
+                    "C0043240": {
+                        "similarity": 0.8,
+                        "semtypes": [
+                            "T040"
+                        ],
+                        "term": "repairs"
+                    },
+                    "C0374711": {
+                        "similarity": 1.0,
+                        "semtypes": [
+                            "T061"
+                        ],
+                        "term": "repair"
+                    }
+                }
+            }
+        },
+        {
+            "start": 141,
+            "end": 142,
+            "start_char": 523,
+            "end_char": 532,
+            "text": "performed",
+            "label": "UMLS",
+            "coding": {
+                "umls": {
+                    "C2947996": {
+                        "similarity": 0.7142857142857143,
+                        "semtypes": [
+                            "T109",
+                            "T121"
+                        ],
+                        "term": "perform"
+                    }
+                }
+            }
+        },
+        {
+            "start": 143,
+            "end": 148,
+            "start_char": 536,
+            "end_char": 544,
+            "text": "2/5/2000",
+            "label": "DATE",
+            "value_units": "date",
+            "value": "2000-02-05T00:00:00"
+        },
+        {
+            "start": 150,
+            "end": 155,
+            "start_char": 547,
+            "end_char": 583,
+            "text": "Patient discharged from the hospital",
+            "label": "UMLS",
+            "coding": {
+                "umls": {
+                    "C4028095": {
+                        "similarity": 0.7058823529411765,
+                        "semtypes": [
+                            "T061"
+                        ],
+                        "term": "patient discharged to hospital"
+                    },
+                    "C0438953": {
+                        "similarity": 0.7333333333333333,
+                        "semtypes": [
+                            "T033"
+                        ],
+                        "term": "discharged from hospital"
+                    }
+                }
+            }
+        },
+        {
+            "start": 156,
+            "end": 157,
+            "start_char": 587,
+            "end_char": 591,
+            "text": "noon",
+            "label": "TIME"
+        },
+        {
+            "start": 158,
+            "end": 161,
+            "start_char": 595,
+            "end_char": 598,
+            "text": "2/5",
+            "label": "DATE",
+            "value_units": null,
+            "value": "2/5"
+        },
+        {
+            "start": 162,
+            "end": 163,
+            "start_char": 602,
+            "end_char": 606,
+            "text": "home",
+            "label": "UMLS",
+            "coding": {
+                "umls": {
+                    "C1548341": {
+                        "similarity": 1.0,
+                        "semtypes": [
+                            "T170"
+                        ],
+                        "term": "home"
+                    },
+                    "C1553498": {
+                        "similarity": 1.0,
+                        "semtypes": [
+                            "T058"
+                        ],
+                        "term": "home"
+                    }
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,54 @@
+{
+    "Encounter": {
+        "Hospitalization": {
+            "subject": {
+                "gender": "male",
+                "birthDate": "1998-06-01T00:00:00"
+            },
+            "serviceType": "Hospitalization",
+            "period": {
+                "start": "2000-02-02T14:00:00",
+                "end": "2000-02-05T12:00:00"
+            }
+        },
+        "CICU": {
+            "subject": {
+                "gender": "male",
+                "birthDate": "1998-06-01T00:00:00"
+            },
+            "serviceType": "CICU",
+            "period": {
+                "start": "2000-02-03T08:00:00",
+                "end": "2000-02-05T03:30:00"
+            }
+        }
+    },
+    "Procedure": [
+        {
+            "identifier": "1100",
+            "subject": "5678",
+            "performer": "John Watson",
+            "code": "40701008",
+            "performedDateTime": "2020-2-2T13:00"
+        },
+        {
+            "identifier": "1109",
+            "subject": "5678",
+            "performer": "James Moriarty",
+            "code": "112811009",
+            "performedDateTime": "2021-2-5T8:30"
+        },
+        {
+            "code": "40701008",
+            "performedDateTime": "2000-02-04T00:00:00",
+            "recorder": "John Watson",
+            "status": "completed"
+        },
+        {
+            "code": "112811009",
+            "performedDateTime": "2000-02-05T00:00:00",
+            "recorder": "John Watson",
+            "status": "completed"
+        }
+    ]
+}
